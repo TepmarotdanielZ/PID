@@ -1,0 +1,8 @@
+../Core/Src/main.c:107:9:map	1
+../Core/Src/main.c:111:9:Motors_RPS	4
+../Core/Src/main.c:150:11:encoder	9
+../Core/Src/main.c:228:5:main	1
+../Core/Src/main.c:293:6:SystemClock_Config	3
+../Core/Src/main.c:333:7:HAL_GPIO_EXTI_Callback	1
+../Core/Src/main.c:345:8:HAL_TIM_PeriodElapsedCallback	4
+../Core/Src/main.c:387:6:Error_Handler	1
