@@ -20,6 +20,8 @@ and generates an error signal and according to that it adjusts the output of sys
 continues until this error gets to Zero or process variable value becomes equal to set point in :
 
 
+![Uploading Screenshot from 2024-07-02 15-24-14.png…]()
+
 
 
 At present, there are various kinds of PID controllers are available in the market. These
