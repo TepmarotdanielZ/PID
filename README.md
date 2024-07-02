@@ -56,4 +56,30 @@ rotor with wound wires rotates inside a magnetic field created by a stator. The 
 encoder provides a mechanism to measure the speed of the rotor and provide closed loop
 feedback to the drive for precise speed control.
 
+## 3. PID Controller
+
+we will dive into the proportional, integral and derivative as three separate equations, then add
+them together to create the output, but first, we need to talk about the user input values in the
+PID controller… the gain settings (P-Gain, I-Gain and D-Gain). Gain is the term used for
+“multiplication factor”. By adjusting the gain settings (or multiplication factor) of the
+proportional, the integral and the derivative, the user can control how much effect the PID
+controller has on the output, and how the controller will react to different changes in the process
+value.[6
+
+## 4. Proportional Math
+
+The Proportional is calculated by multiplying the P-Gain by the error ( Eq. 4.2 ). The purpose
+of the proportional, is to have a large immediate reaction on the output to bring the process
+value close to the set point. As the error becomes less, the influence of the proportional value
+on the output becomes less.
+
+   The Proportional math looks like this:
+
+         𝑝 = 𝑝𝑟𝑜𝑝𝑜𝑟𝑡𝑖𝑜𝑛𝑎𝑙; 𝑘𝑃 = 𝑝𝑟𝑜𝑝𝑜𝑟𝑡𝑖𝑜𝑛𝑎𝑙 𝑔𝑎𝑖𝑛
+         𝑆𝑃 = 𝑠𝑒𝑡 𝑝𝑜𝑖𝑛𝑡; 𝑃𝑉 = 𝑝𝑟𝑜𝑐𝑒𝑠𝑠 𝑣𝑎𝑙𝑢𝑒; 𝐸𝑟𝑟 = 𝑒𝑟𝑟𝑜𝑟
+
+         𝐸𝑟𝑟 = 𝑆𝑃 − 𝑃𝑉
+         𝑃 = 𝑘𝑃 × 𝐸𝑟𝑟
+   
+
 
