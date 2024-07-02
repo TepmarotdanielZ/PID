@@ -20,7 +20,7 @@ and generates an error signal and according to that it adjusts the output of sys
 continues until this error gets to Zero or process variable value becomes equal to set point in :
 
 
-      ![Screenshot from 2024-07-02 15-24-14](https://github.com/TepmarotdanielZ/PID/assets/139426571/6b06277a-bc69-4557-bb4f-529a4dd78c42)
+   ![Screenshot from 2024-07-02 15-24-14](https://github.com/TepmarotdanielZ/PID/assets/139426571/6b06277a-bc69-4557-bb4f-529a4dd78c42)
 
 
 
