@@ -1,4 +1,4 @@
-## PID Controller Method
+## 1. PID Controller Method
 
 The first evolution of the PID controller was developed in 1911 by Elmer Sperry. However, it
 wasn't until 1933 that the Taylor Instrumental Company (TIC) introduced the first pneumatic
@@ -33,7 +33,7 @@ instability and slow control performances. Different types of tuning methods are
 tune the PID controllers and require much attention from the operator to select the best values
 of proportional, integral, and derivative gains.
 
-## DC Encoder Motor
+## 2. DC Encoder Motor
 
 A DC motor is an electric motor that runs on direct current power. In an electric motor, the
 operation is dependent upon simple electromagnetism. A current-carrying conductor generates
@@ -48,5 +48,12 @@ used for speed and/or position control. Encoders turn mechanical motion into an 
 signal that is used by the control system to monitor specific parameters of the application and
 make adjustments if necessary, to maintain the machine operating as desired.
 
-![Uploading Screenshot from 2024-07-02 16-07-26.png…]()
+
+![Screenshot from 2024-07-02 16-07-26](https://github.com/TepmarotdanielZ/PID/assets/139426571/32b15de0-6352-4361-b21b-8a1c581d70a0)
+
+DC motor encoders are used for speed control feedback in DC motors where an armature or
+rotor with wound wires rotates inside a magnetic field created by a stator. The DC motor
+encoder provides a mechanism to measure the speed of the rotor and provide closed loop
+feedback to the drive for precise speed control.
+
 
