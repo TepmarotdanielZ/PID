@@ -32,3 +32,21 @@ terms, and these values couldn’t give the desired performance and sometimes le
 instability and slow control performances. Different types of tuning methods are developed to
 tune the PID controllers and require much attention from the operator to select the best values
 of proportional, integral, and derivative gains.
+
+## DC Encoder Motor
+
+A DC motor is an electric motor that runs on direct current power. In an electric motor, the
+operation is dependent upon simple electromagnetism. A current-carrying conductor generates
+a magnetic field, when this is then placed in an external magnetic field, it will encounter a force
+proportional to the current in the conductor and to the strength of the external magnetic field.
+It is a device that converts electrical energy to mechanical energy. It works on the fact that a
+current-carrying conductor placed in a magnetic field experiences a force that causes it to rotate
+with respect to its original position. Practical DC Motor consists of field windings to provide
+the magnetic flux and armature which acts as the conductor.
+An encoder is an electromechanical device that provides an electrical signal Figure 2-8 that is
+used for speed and/or position control. Encoders turn mechanical motion into an electrical
+signal that is used by the control system to monitor specific parameters of the application and
+make adjustments if necessary, to maintain the machine operating as desired.
+
+![Uploading Screenshot from 2024-07-02 16-07-26.png…]()
+
