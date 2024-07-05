@@ -93,30 +93,16 @@ proportional, but because the integral is continuously accumulating overtime, th
 for the process value to reach the set point, the more effect the integral will have on the output.
       
 
-\documentclass{article}
-\usepackage{amsmath}
-
-\begin{document}
-
 And the Integral math:
 
-\[
-I = \text{integral}; \quad k_I = \text{integral gain}
-\]
+\[ I = \text{integral}; \quad k_I = \text{integral gain} \]
 
-\[
-dt = \text{cycle time of the controller}; \quad I_t = \text{integral total}
-\]
+\[ dt = \text{cycle time of the controller}; \quad I_t = \text{integral total} \]
 
-\[
-I = k_I \times \text{Err} \times dt
-\]
+\[ I = k_I \times \text{Err} \times dt \]
 
-\[
-I_t = I_t + I
-\]
+\[ I_t = I_t + I \]
 
-\end{document}
 
 
 
