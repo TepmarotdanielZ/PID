@@ -93,15 +93,31 @@ proportional, but because the integral is continuously accumulating overtime, th
 for the process value to reach the set point, the more effect the integral will have on the output.
       
 
+# Integral Math
+
 And the Integral math:
 
+<div>
 \[ I = \text{integral}; \quad k_I = \text{integral gain} \]
+</div>
 
+<div>
 \[ dt = \text{cycle time of the controller}; \quad I_t = \text{integral total} \]
+</div>
 
+<div>
 \[ I = k_I \times \text{Err} \times dt \]
+</div>
 
+<div>
 \[ I_t = I_t + I \]
+</div>
+
+<!-- Add MathJax -->
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 
 
 
