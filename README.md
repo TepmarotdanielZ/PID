@@ -92,30 +92,32 @@ The integral will normally not have as much immediate influence on the output as
 proportional, but because the integral is continuously accumulating overtime, the longer it takes
 for the process value to reach the set point, the more effect the integral will have on the output.
       
-      \documentclass{article}
-      \usepackage{amsmath}
-      
-      \begin{document}
-      
-      And the Integral math:
-      
-      \[
-      I = \text{integral}; \quad k_I = \text{integral gain}
-      \]
-      
-      \[
-      dt = \text{cycle time of the controller}; \quad I_t = \text{integral total}
-      \]
-      
-      \[
-      I = k_I \times \text{Err} \times dt
-      \]
-      
-      \[
-      I_t = I_t + I
-      \]
-      
-      \end{document}
+
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+And the Integral math:
+
+\[
+I = \text{integral}; \quad k_I = \text{integral gain}
+\]
+
+\[
+dt = \text{cycle time of the controller}; \quad I_t = \text{integral total}
+\]
+
+\[
+I = k_I \times \text{Err} \times dt
+\]
+
+\[
+I_t = I_t + I
+\]
+
+\end{document}
+
 
 
 
