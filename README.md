@@ -96,7 +96,9 @@ for the process value to reach the set point, the more effect the integral will 
 # Integral Math
 
 And the Integral math:
-
+$$
+I = \text{Integral}; \quad K_i = \text{integral gain}
+$$
 $$
 dt = \text{cycle time of the controller}; \quad I_t = \text{integral total}
 $$
