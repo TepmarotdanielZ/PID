@@ -91,16 +91,32 @@ cycle time in a loop of coding), the new calculated integral value, is added to 
 The integral will normally not have as much immediate influence on the output as the
 proportional, but because the integral is continuously accumulating overtime, the longer it takes
 for the process value to reach the set point, the more effect the integral will have on the output.
+      
+      \documentclass{article}
+      \usepackage{amsmath}
+      
+      \begin{document}
+      
+      And the Integral math:
+      
+      \[
+      I = \text{integral}; \quad k_I = \text{integral gain}
+      \]
+      
+      \[
+      dt = \text{cycle time of the controller}; \quad I_t = \text{integral total}
+      \]
+      
+      \[
+      I = k_I \times \text{Err} \times dt
+      \]
+      
+      \[
+      I_t = I_t + I
+      \]
+      
+      \end{document}
 
-         And the Integral math:
-         
-     $ 𝐼 = 𝑖𝑛𝑡𝑒𝑟𝑔𝑟𝑎𝑙; 𝑘𝐼 = 𝑖𝑛𝑡𝑒𝑟𝑔𝑟𝑎𝑙 𝑔𝑎𝑖𝑛
-      
-      𝑑𝑡 = 𝑐𝑦𝑐𝑙𝑒 𝑡𝑖𝑚𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑟; 𝐼𝑡 = 𝑖𝑛𝑡𝑒𝑔𝑟𝑎𝑙 𝑡𝑜𝑡𝑎𝑙
-      
-      𝐼 = 𝑘𝐼 × 𝐸𝑟𝑟 × 𝑑𝑡
-      
-      𝐼𝑡 = 𝐼𝑡 + 𝐼 $
 
 
 
