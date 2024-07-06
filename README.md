@@ -126,6 +126,11 @@ I_t = I_t + I
 $$
 
 
+$$
+   ( Eq. 2 )
+$$
+
+
 ## 6. Derivative Math
 
 The derivative is calculated by multiplying the D-Gain by the ramp rate of the process value
@@ -150,7 +155,12 @@ $$
 𝐷 = 𝑘𝐷 × 𝐸𝑟𝑟 − 𝑝𝐸𝑟𝑟 / dt
 $$
 
+$$
 
+
+$$
+   ( Eq. 3 )
+$$
 
 
 
