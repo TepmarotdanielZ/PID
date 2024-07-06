@@ -91,6 +91,10 @@ $$
    𝑃 = 𝑘𝑃 × 𝐸𝑟𝑟
 $$
 
+$$
+   ( Eq. 1 )
+$$
+
 ## 5. Integral Math
 
 The Integral is calculated by multiplying the I-Gain, by the error ( Eq. 4.4 ), then multiplying
@@ -102,8 +106,6 @@ The integral will normally not have as much immediate influence on the output as
 proportional, but because the integral is continuously accumulating overtime, the longer it takes
 for the process value to reach the set point, the more effect the integral will have on the output.
       
-
-# Integral Math
 
 And the Integral math:
 
@@ -124,7 +126,29 @@ I_t = I_t + I
 $$
 
 
+## 6. Derivative Math
 
+The derivative is calculated by multiplying the D-Gain by the ramp rate of the process value
+( Eq. 1 ). The purpose of the derivative is to “predict” where the process value is going, and
+bias the output in the opposite direction of the proportional and integral, to hopefully prevent
+the controller from over-shooting the set point if the ramp rate is too fast.
+Explained a bit simpler, if the process value is approaching the set point to fast, the derivative
+will limit the output to prevent the process value from overshooting the set point.
+
+
+The Derivative Math:
+
+$$
+𝐷 = 𝑑𝑒𝑟𝑖𝑣𝑎𝑡𝑖𝑜𝑛; 𝑘𝐷 = 𝑑𝑒𝑟𝑖𝑣𝑎𝑡𝑖𝑣𝑒 𝑔𝑎𝑖𝑛;
+$$
+
+$$
+𝑑𝑡 = 𝑐𝑦𝑐𝑙𝑒 𝑡𝑖𝑚𝑒 𝑜𝑓 𝑡ℎ𝑒 𝑐𝑜𝑛𝑡𝑟𝑜𝑙𝑙𝑒𝑟; 𝑝𝐸𝑟𝑟 = 𝑝𝑟𝑒𝑣𝑖𝑜𝑢𝑠 𝑒𝑟𝑟𝑜𝑟
+$$
+
+$$
+𝐷 = 𝑘𝐷 × 𝐸𝑟𝑟 − 𝑝𝐸𝑟𝑟 / dt
+$$
 
 
 
